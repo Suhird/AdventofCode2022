@@ -1,5 +1,4 @@
 
-
 def count_calories():
     sum = 0
     max = 0
@@ -19,7 +18,8 @@ def count_calories():
     total = 0
     for i in big_array[:3]:
         total += i
-    print("Top 3 elves total:",total)
+    print("Top 3 elves total:", total)
+
+
 if __name__ == "__main__":
     count_calories()
-
