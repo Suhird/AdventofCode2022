@@ -12,8 +12,7 @@ def count_calories():
             sum += int(line)
             if sum > max:
                 max = sum
-    
-    print("Maximum:",max)
+    print("Maximum:", max)
     big_array.sort(reverse=True)
     total = 0
     for i in big_array[:3]:
